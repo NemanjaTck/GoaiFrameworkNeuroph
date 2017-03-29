@@ -1,0 +1,105 @@
+- kao sta su pprepoznati oni koji imaju gresku (distribucija po drugim klasama)
+
+- detalji pogresno prepoznatih za svaku klasu:
+    - koliko njih je pogresno prpoznato kao klasa c, a pripadaju nekoj drugoj
+    - koliko njih pripada klasi c, a prepoznato je kao neka druga klasa
+
+http://en.wikipedia.org/wiki/Binary_classification
+Specificity
+Sensitivity
+relationship between sensitivity and specificity
+
+multiclass classifier evaluation
+http://spokenlanguageprocessing.blogspot.com/2011/12/evaluating-multi-class-classification.html
+accuarcy
+
+- resiti labele i nazive klasa klasifikacije u datasetu
+- vidi sta tacno metoda classDistribution treba da vraca i implementirati je za neuroph classifier
+
+vidi klasu PerformanceMeasure iz Java ML
+http://java-ml.sourceforge.net/api/0.1.7/net/sf/javaml/classification/evaluation/PerformanceMeasure.html
+
+
++dodaj klasu ClassificationDescriptor umesto one HashMap
+d amoze da vraca; klase
+ulaze,
+sve ulaze za zadatu klasu
+klasu za zadati ulaz
+
+
+
+
+
+
+support testing and benchmarking of Classification classes
+
+ClassifierResult
+
+Cross validation
+
+
+greske za sve klase
+
+Algoritam za tetsiranje
+
+1. propsti sve instance 
+2. za svaku instancu uzmi klasu iz klasifikatora, 
+3. proveri da li je klasifikacija tacna, uporedi dobijenu klasu sa zeljenom i azuriraj broj
+
+izbroj koliko ima tacnih, a koliko pogresnih klasifikacija za svaku klasu
+izracunaj statistiku, greske, max, min, itd.
+distribuciju greske po klasama i datasetu
+
+
+
+Add WekaClassifier adapter
+add JavaMlClassifier
+we allready hnae Neuroph Classifier!
+How to RM Classifier???
+
+ClassifierEvaluator
+
+---------------------------------------------------------------------------------------
+
+ClassifierEvaluationResults
+
+broj klasa
+broj itema
+
+ukupan broj tacnih klasifikacija
+ukupan broj pogresnih klasifikacija
+isto i procentualno
+
+broj tacnih i pogresnih klasifikacija po klasama (ukupno i procentualni)
+
+distrinucija klasa po data set-u (broj klasa u dataset-u)
+
+srednja kvadratn agreska
+min greska 
+max greska
+distribucija greske po klasama
+
+
+Generisanje Grafika
+Izvestavanje - Reporting, izgenerisi izvestaj o klasifikaciji: tabele, slike, csv
+materijal koji se moze priloziti uz rad - suplementary material
+mozda HTML (mini sajt sa rezultatima evaluacije, kao maven ili javadoc)! (a i pdf varijanta)
+
+evaluation
+reporting
+
+
+Dodaj Java CSV library
+http://opencsv.sourceforge.net/
+http://code.google.com/p/jcsv/
+
+
+2D Graph API uzeti iz Neuroph-a - koristiti JFreeChart
+
+Koji format koristiti za podatke? 
+
+Mozda Weka ARFF? - najverovatnije -definitivno
+to podrzava i rapid miner i ima sve sto treba
+
+GOAI = Best pracitice and good APIs taken from other frameworks
+

@@ -1,0 +1,11 @@
+Konultacije 1.april, 2014.
+
+
+-obratiti pažnju na multiclass klasifikaciju
+-Prokopati Weku i vifrti šta se može dodati, kako bi se pokrilo sve.
+-unaprediti klase i bazirati se na vec postojece
+-napisati jednostavnu dokumentaciju na engleskom šta i kako
+-dati informaciju šta je promašeno, npr koliko krugova je deklarisano kao kvadrat i sve tako
+-smisliti kako se to može rešiti 
+-u klasi EvaluationResult napisati instancu PerformanceMEassure koja se instancira pomoću ona 4 parametra
+-Krajnji rezultat treba da izbacuje rezultate o testiranju i detaljnu statistiku o pokušajima (greške itd)
